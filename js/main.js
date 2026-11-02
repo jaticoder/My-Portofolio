@@ -244,7 +244,7 @@ function initDownloadCV() {
     document.getElementById('download-cv-btn')?.addEventListener('click', e => {
         e.preventDefault();
         toast('Downloading CV...');
-        const txt = `GAME DEVELOPER RESUME\n====================\nName: [YOUR NAME]\nRole: Game Developer & Digital Creator\nSkills: Unity, Godot, C#, GDScript, Blender\nProjects: Aetheria (RPG), Neon Velocity (Racer)\nContact: your.email@example.com`;
+        const txt = `GAME DEVELOPER RESUME\n====================\nName: Jati Wisnu\nRole: Game Developer & Digital Creator\nSkills: Unity, Godot, C#, GDScript, Blender\nProjects: Aetheria (RPG), Neon Velocity (Racer)\nContact: your.email@example.com`;
         const blob = new Blob([txt], { type: 'text/plain' });
         const a = document.createElement('a');
         a.href = URL.createObjectURL(blob);
