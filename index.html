@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[YOUR NAME] - Game Developer Portfolio</title>
+
+    <!-- Google Fonts: Bungee Shade (nama besar), Poppins, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bungee&family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body>
+
+    <!-- Dot Grid Background -->
+    <div class="dot-grid" aria-hidden="true"></div>
+
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar" id="navbar">
+        <nav class="nav-inner container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">GD</span>
+                <span>R.DEV <b>404</b></span>
+            </a>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> HOME</a></li>
+                <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> ABOUT</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fa-solid fa-gamepad"></i> PROJECTS</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> SKILLS</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> CONTACT</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <button class="theme-btn" id="theme-toggle" title="Toggle Theme">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div class="overlay" id="overlay"></div>
+
+    <main>
+        <!-- ========== HERO ========== -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+
+                <!-- KIRI -->
+                <div class="hero-left">
+                    <p class="hero-hi">HI, I'M</p>
+
+                    <h1 class="hero-name">
+                        <span class="line1">CODE BY</span><br>
+                        <span class="line2">[YOUR NAME]</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle">
+                        <span class="sub-blue">GAME DEVELOPER</span><br>
+                        <span class="sub-white">&amp; </span><span class="sub-highlight"><span id="typing-text">DIGITAL CREATOR</span><span class="blink">|</span></span>
+                    </h2>
+
+                    <p class="hero-desc">
+                        I build immersive game worlds, responsive gameplay mechanics, and captivating audio-visual experiences with modern game engines.
+                    </p>
+
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn-hero">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#" class="btn-hero" id="download-cv-btn">Download CV <i class="fa-solid fa-download"></i></a>
+                    </div>
+
+                    <!-- Stats -->
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <i class="fa-solid fa-face-smile"></i>
+                            <div><strong>2+</strong><small>GAME PROJECTS</small></div>
+                        </div>
+                        <div class="stat-sep"></div>
+                        <div class="stat">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <div><strong>5+</strong><small>TECHNOLOGIES</small></div>
+                        </div>
+                        <div class="stat-sep"></div>
+                        <div class="stat">
+                            <i class="fa-solid fa-rocket"></i>
+                            <div><strong>SOON</strong><small>STEAM RELEASE</small></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KANAN -->
+                <div class="hero-right">
+                    <div class="photo-frame">
+                        <img src="assets/avatar.svg" alt="Profile Photo" class="photo-img">
+                        <div class="photo-glitch" aria-hidden="true"></div>
+                    </div>
+
+                    <div class="connect-box">
+                        <p class="connect-label"><i class="fa-solid fa-link"></i> LET'S CONNECT:</p>
+                        <div class="connect-btns">
+                            <a href="mailto:your@email.com" class="connect-btn"><i class="fa-solid fa-envelope"></i> Email</a>
+                            <a href="#" class="connect-btn"><i class="fa-brands fa-discord"></i> Discord</a>
+                            <a href="#" class="connect-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== ABOUT ========== -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="sec-head reveal"><span class="sec-tag">// ABOUT ME</span><h2>ABOUT <span class="acc">ME</span></h2><div class="sec-line"></div></div>
+
+                <div class="about-grid reveal">
+                    <div class="about-text">
+                        <h3>Turning Ideas Into <span class="acc">Playable Experiences</span></h3>
+                        <p>Halo! Saya Game Developer dan Digital Creator yang antusias mengeksplorasi perpaduan seni visual interaktif dan rekayasa perangkat lunak.</p>
+                        <p>Bagi saya, game bukan sekadar hiburan—melainkan media bercerita interaktif yang menghubungkan pemain dari seluruh dunia.</p>
+
+                        <div class="nick-box">
+                            <h4><i class="fa-solid fa-gamepad acc"></i> GAMING NICKNAMES <span class="nick-hint">Klik untuk copy</span></h4>
+                            <div class="nick-grid">
+                                <div class="nick-card" data-nick="PhantomDev"><i class="fa-brands fa-steam"></i><div><small>STEAM</small><strong>PhantomDev</strong></div><i class="fa-regular fa-copy copy-icon"></i></div>
+                                <div class="nick-card" data-nick="AlexGamer#7777"><i class="fa-brands fa-discord"></i><div><small>DISCORD</small><strong>AlexGamer#7777</strong></div><i class="fa-regular fa-copy copy-icon"></i></div>
+                                <div class="nick-card" data-nick="CyberKnight"><i class="fa-solid fa-mobile-screen"></i><div><small>MOBILE LEGENDS</small><strong>CyberKnight</strong></div><i class="fa-regular fa-copy copy-icon"></i></div>
+                                <div class="nick-card" data-nick="Aero_Striker"><i class="fa-brands fa-playstation"></i><div><small>PSN</small><strong>Aero_Striker</strong></div><i class="fa-regular fa-copy copy-icon"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="acard-head"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="acard-title">PLAYER_STATUS.LOG</span></div>
+                        <div class="acard-body">
+                            <div class="ms"><span><i class="fa-solid fa-bolt acc"></i> Creative Energy</span><div class="mb"><div class="mf" style="width:95%"></div></div><span>95%</span></div>
+                            <div class="ms"><span><i class="fa-solid fa-code acc"></i> Code Logic</span><div class="mb"><div class="mf" style="width:90%"></div></div><span>90%</span></div>
+                            <div class="ms"><span><i class="fa-solid fa-mountain acc"></i> Level Design</span><div class="mb"><div class="mf" style="width:85%"></div></div><span>85%</span></div>
+                            <div class="ms"><span><i class="fa-solid fa-mug-hot acc"></i> Coffee Intake</span><div class="mb"><div class="mf" style="width:99%"></div></div><span>99%</span></div>
+                            <div class="quest"><span class="qt">CURRENT QUEST:</span><p>Menyelesaikan prototipe game RPG & persiapan rilis demo di Steam.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== PROJECTS ========== -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="sec-head reveal"><span class="sec-tag">// MY WORKS</span><h2>GAME <span class="acc">PROJECTS</span></h2><div class="sec-line"></div></div>
+
+                <div class="proj-grid">
+                    <div class="proj-card reveal">
+                        <div class="proj-thumb"><img src="assets/project1.svg" alt="Aetheria"><span class="proj-badge">🚧 In Development</span><div class="proj-tags"><span>Action RPG</span><span>Dark Fantasy</span></div></div>
+                        <div class="proj-body">
+                            <h3>Aetheria: Echoes of Eternity</h3>
+                            <p>Game Action RPG third-person dengan sistem pertarungan pedang, kombinasi sihir elemental, serta dungeon prosedural.</p>
+                            <div class="prog-box"><div class="prog-top"><span><i class="fa-solid fa-code-branch"></i> Progress</span><span class="prog-pct">75%</span></div><div class="prog-track"><div class="prog-fill" style="width:75%"></div></div></div>
+                            <div class="tech-row"><span>Unity 3D</span><span>C#</span><span>Blender</span><span>FMOD</span></div>
+                            <button class="btn-hero proj-trigger" data-project="aetheria">Learn More <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="proj-card reveal">
+                        <div class="proj-thumb"><img src="assets/project2.svg" alt="Neon Velocity"><span class="proj-badge">🚧 In Development</span><div class="proj-tags"><span>Sci-Fi Racer</span><span>Arcade</span></div></div>
+                        <div class="proj-body">
+                            <h3>Neon Velocity: Cyber Drift</h3>
+                            <p>Balap hovercraft anti-gravitasi berkecepatan tinggi dengan estetika synthwave cyberpunk dan sistem drift boost nitro.</p>
+                            <div class="prog-box"><div class="prog-top"><span><i class="fa-solid fa-code-branch"></i> Progress</span><span class="prog-pct">60%</span></div><div class="prog-track"><div class="prog-fill" style="width:60%"></div></div></div>
+                            <div class="tech-row"><span>Godot 4</span><span>GDScript</span><span>Blender</span><span>Aseprite</span></div>
+                            <button class="btn-hero proj-trigger" data-project="neon-velocity">Learn More <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SKILLS ========== -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="sec-head reveal"><span class="sec-tag">// TECH STACK</span><h2>SKILLS & <span class="acc">TOOLS</span></h2><div class="sec-line"></div></div>
+
+                <div class="skills-grid reveal">
+                    <div class="sk-cat"><h3><i class="fa-solid fa-gamepad acc"></i> Game Engines</h3>
+                        <div class="sk"><div class="sk-top"><span>Unity Engine</span><span>90%</span></div><div class="sk-bar"><div class="sk-fill" data-p="90%"></div></div></div>
+                        <div class="sk"><div class="sk-top"><span>Godot Engine</span><span>82%</span></div><div class="sk-bar"><div class="sk-fill" data-p="82%"></div></div></div>
+                        <div class="sk"><div class="sk-top"><span>Unreal Engine</span><span>65%</span></div><div class="sk-bar"><div class="sk-fill" data-p="65%"></div></div></div>
+                    </div>
+                    <div class="sk-cat"><h3><i class="fa-solid fa-code acc"></i> Programming</h3>
+                        <div class="sk"><div class="sk-top"><span>C# (Unity)</span><span>92%</span></div><div class="sk-bar"><div class="sk-fill" data-p="92%"></div></div></div>
+                        <div class="sk"><div class="sk-top"><span>GDScript</span><span>85%</span></div><div class="sk-bar"><div class="sk-fill" data-p="85%"></div></div></div>
+                        <div class="sk"><div class="sk-top"><span>Python</span><span>75%</span></div><div class="sk-bar"><div class="sk-fill" data-p="75%"></div></div></div>
+                    </div>
+                    <div class="sk-cat"><h3><i class="fa-solid fa-toolbox acc"></i> Tools & Art</h3>
+                        <div class="sk"><div class="sk-top"><span>Blender 3D</span><span>80%</span></div><div class="sk-bar"><div class="sk-fill" data-p="80%"></div></div></div>
+                        <div class="sk"><div class="sk-top"><span>Photoshop & Aseprite</span><span>85%</span></div><div class="sk-bar"><div class="sk-fill" data-p="85%"></div></div></div>
+                        <div class="sk"><div class="sk-top"><span>Git & GitHub</span><span>88%</span></div><div class="sk-bar"><div class="sk-fill" data-p="88%"></div></div></div>
+                    </div>
+                    <div class="sk-cat"><h3><i class="fa-solid fa-wand-magic-sparkles acc"></i> Game Design</h3>
+                        <div class="sk"><div class="sk-top"><span>Level Design</span><span>86%</span></div><div class="sk-bar"><div class="sk-fill" data-p="86%"></div></div></div>
+                        <div class="sk"><div class="sk-top"><span>Shaders & VFX</span><span>74%</span></div><div class="sk-bar"><div class="sk-fill" data-p="74%"></div></div></div>
+                        <div class="sk"><div class="sk-top"><span>FMOD Audio</span><span>70%</span></div><div class="sk-bar"><div class="sk-fill" data-p="70%"></div></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CONTACT ========== -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="sec-head reveal"><span class="sec-tag">// GET IN TOUCH</span><h2>CONTACT <span class="acc">ME</span></h2><div class="sec-line"></div></div>
+
+                <div class="contact-grid reveal">
+                    <div class="contact-info">
+                        <div class="ci"><i class="fa-solid fa-envelope"></i><div><small>EMAIL</small><p>your.email@example.com</p></div></div>
+                        <div class="ci"><i class="fa-brands fa-discord"></i><div><small>DISCORD</small><p>AlexGamer#7777</p></div></div>
+                        <div class="ci"><i class="fa-solid fa-location-dot"></i><div><small>LOCATION</small><p>Indonesia (GMT+7)</p></div></div>
+                    </div>
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <h3><i class="fa-solid fa-paper-plane acc"></i> Send Message</h3>
+                        <div class="fg"><label>Name *</label><input type="text" id="contact-name" placeholder="Your name..." required><span class="fe" id="name-error"></span></div>
+                        <div class="fg"><label>Email *</label><input type="email" id="contact-email" placeholder="your@email.com" required><span class="fe" id="email-error"></span></div>
+                        <div class="fg"><label>Message *</label><textarea id="contact-message" rows="5" placeholder="Write your message..." required></textarea><span class="fe" id="message-error"></span></div>
+                        <button type="submit" class="btn-primary" id="form-submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 <strong>[YOUR NAME]</strong>. Built with code & passion.</p>
+            <div class="footer-links">
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-steam"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="project-modal" aria-hidden="true">
+        <div class="modal-bg" id="modal-backdrop"></div>
+        <div class="modal-box">
+            <button class="modal-x" id="modal-close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <div id="modal-content-container"></div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"><i class="fa-solid fa-circle-check"></i> <span id="toast-message"></span></div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
